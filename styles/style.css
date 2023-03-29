@@ -1,0 +1,57 @@
+
+body{
+    font-size: large;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+a{
+    color:blue;
+    font-size: x-large;
+}
+
+footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+}
+
+header{
+    position:static;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/*Class Selectors*/
+
+.myPhoto{
+    display: inline-block;
+    padding: 10px;  
+}
+
+.introduction{
+    display: inline-block;
+    text-align: start;
+    /*position: absolute;*/
+    /*top: 0;*/
+    top: 50;
+    
+}
+
+.mainSection{
+    display: block;
+}
+
+.headerText{
+    color: black;
+}
