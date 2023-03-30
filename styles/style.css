@@ -50,6 +50,7 @@ footer{
 .link{
     background-color: white;
     color: blue;
+    display: inline;
 }
 
 .hardwareProjects{
