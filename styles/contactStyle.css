@@ -1,4 +1,4 @@
-body{
+html{
     font-size: large;
     background-color: #1b1b1b;
     color: white;
@@ -8,6 +8,19 @@ a{
     color:blue;
     font-size: x-large;
 }
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
 
 header{
     position:static;
@@ -39,6 +52,30 @@ footer{
     display: inline;
 }
 
+.hardwareProjects{
+    height: 40%;
+    width: 40%;
+    padding: 4%;
+}
+
 .headerText{
     color: black;
+}
+
+.myPhoto{
+    display: inline-block;
+    padding: 10px;  
+}
+
+.introduction{
+    display: inline-block;
+    text-align: start;
+    /*position: absolute;*/
+    /*top: 0;*/
+    top: 50;
+    
+}
+
+.mainSection{
+    display: block;
 }

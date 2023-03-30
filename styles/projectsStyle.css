@@ -1,4 +1,3 @@
-
 html{
     font-size: large;
     background-color: #1b1b1b;
@@ -58,8 +57,32 @@ footer{
     color: blue;
 }
 
+.hardwareProjects{
+    height: 40%;
+    width: 40%;
+    padding: 4%;
+}
+
 .headerText{
     color: black;
+}
+
+.myPhoto{
+    display: inline-block;
+    padding: 10px;  
+}
+
+.introduction{
+    display: inline-block;
+    text-align: start;
+    /*position: absolute;*/
+    /*top: 0;*/
+    top: 50;
+    
+}
+
+.mainSection{
+    display: block;
 }
 
 /**/
