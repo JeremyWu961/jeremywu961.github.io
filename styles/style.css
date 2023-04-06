@@ -4,11 +4,6 @@ html{
     color: white;
 }
 
-a{
-    color:blue;
-    font-size: x-large;
-}
-
 details {
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -19,6 +14,7 @@ summary {
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
+    text-align: center;
 }
 
 header{
@@ -33,7 +29,6 @@ header{
     margin: 0 auto;
 }
 
-
 footer{
     position:fixed;
     left: 0;
@@ -42,6 +37,11 @@ footer{
     text-align: center;
     font-size: large;
     background-color: white;
+}
+
+footer > a{
+    /*Used to style only ther <a> elements inside the footer*/
+    color: blue;
 }
 
 
@@ -64,17 +64,39 @@ footer{
 }
 
 .myPhoto{
-    display: inline-block;
-    padding: 10px;  
+    /*display: inline;*/
+    display: none;
+    float: left;
+    padding: 10px;
+    /*width: 40%;
+    height: 40%;*/  
 }
 
 .introduction{
-    display: inline-block;
-    text-align: start;
-    /*position: absolute;*/
+    display: block;
+    text-align: center;
     top: 50;
 }
 
 .mainSection{
     display: block;
+    float: inline-start;
+}
+
+.qualificationsBox{
+    text-align: center;
+}
+
+.qualification{
+    display: block;
+    margin: 0 auto ;
+    padding: 10px;
+}
+
+.qualificationLink{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: antiquewhite;
+    color: blue;
 }
